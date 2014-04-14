@@ -17,15 +17,25 @@ body, h1, h2, h3, h4, h5, h6 {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/trk_01_header.jpg) no-repeat bottom right;
+	background: url(../img/trk_01_header.jpg) no-repeat bottom center;
 	background-size: cover;
 	text-align: center;
+	height: 500px;
+}
+
+.intro-header_crr {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background: url(../img/crr_01_header.jpg) no-repeat bottom left;
+	background-size: cover;
+	text-align: center;
+	height: 500px;
 }
 
 .intro-message {
 	position: relative;
-	padding-top: 15%;
-	padding-bottom: 20%;
+	padding-top: 5%;
 }
 
 .intro-message > h1 {
@@ -100,6 +110,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #f8f8f8;
 	background: url(../img/banner-bg.jpg) no-repeat center center;
 	background-size: cover;
+	background-color: Black;
 }
 
 .banner h2 {
